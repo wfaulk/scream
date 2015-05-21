@@ -1,2 +1,2 @@
-vmmouse_null: vmmouse_null.o vmmouse_proto.o
+scream: vmmouse_null.o vmmouse_proto.o
 	$(CC) $? -o $@
