@@ -233,7 +233,6 @@ main(int argc, char *argv[])
    }
 
 
-   //if ( ! VMMouseClientVMCheck() ) {
    if ( ! VMMouseClient_Enable() ) {
       printf("VM Mouse not available. Exiting\n");
       return 1;
