@@ -6,6 +6,13 @@ mouse and having to Ctrl-Alt or Ctrl-Cmd out of them in order to work in another
 window, despite that the mouse has no function inside the text console?  Do you
 need to scream?
 
+### How to use
+
+Run `scream` on the guest once per boot (in a startup script would make sense).
+It doesn't make any difference if the program is run within the console or not,
+and it doesn't require any elevated guest privileges.  Run `scream -d` to
+revert.
+
 ### How it works
 
 As you may already know, VMware consoles have two mouse modes: absolute and
