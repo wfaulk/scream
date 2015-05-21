@@ -18,7 +18,7 @@ revert.
 
 As you may already know, VMware consoles have two mouse modes: absolute and
 relative positioning.  If VMware Tools is not running in the guest, or, more
-accurately, no VMware-knowledgeable tool has requested otherwise, the console
+accurately, no VMware-aware tool has requested otherwise, the console
 runs in relative mode.  This means that the console grabs the mouse and presents
 any movement of the mouse directly to the guest, emulating a PS/2 mouse.  In
 absolute mode, the console bypasses the PS/2 emulation and sends the absolute
