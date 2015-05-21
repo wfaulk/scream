@@ -1,5 +1,5 @@
 # scream
-## I Have No Mouse, and I Must Scream<sup>&dagger;</sup>
+## I Have No Mouse, and I Must Scream<sup><a href="#dagger">&dagger;</a></sup>
 
 Do you use text consoles under VMware?  Are you tired of VMware grabbing your
 mouse and having to Ctrl-Alt or Ctrl-Cmd out of them in order to work in another
@@ -31,6 +31,8 @@ left the console and automatically ungrabs it.  All the guest has to do,
 assuming it doesn't care about the mouse at all, is request absolute mode.  And
 that's what, and all, `scream` does.
 
-&dagger; Inspired by the Hugo Award-winning short story &ldquo;<a
+---
+
+<a name="dagger">&dagger;</a> Inspired by the Hugo Award-winning short story &ldquo;<a
 href="http://www.isfdb.org/cgi-bin/title.cgi?41300">I Have No Mouth, and I Must
 Scream</a>&rdquo;, by Harlan Ellison
