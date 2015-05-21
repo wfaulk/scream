@@ -2,9 +2,10 @@
 ## I Have No Mouse, and I Must Scream<sup><a href="#dagger">&dagger;</a></sup>
 
 Do you use text consoles under VMware?  Are you tired of VMware grabbing your
-mouse and having to Ctrl-Alt or Ctrl-Cmd out of them in order to work in another
-window, despite that the mouse has no function inside the text console?  Do you
-need to scream?
+mouse and having to Ctrl-Alt or Ctrl-Cmd out of them<sup><a
+href="#doubledagger">&Dagger;</a></sup> in order to work in another window,
+despite that the mouse has no function inside the text console?  Do you need to
+scream?
 
 ### How to use
 
@@ -40,6 +41,9 @@ that's what, and all, `scream` does.
 
 ---
 
-<a name="dagger">&dagger;</a> Inspired by the Hugo Award-winning short story &ldquo;<a
-href="http://www.isfdb.org/cgi-bin/title.cgi?41300">I Have No Mouth, and I Must
-Scream</a>&rdquo;, by Harlan Ellison
+<a name="dagger">&dagger;</a> Inspired by the Hugo Award-winning short story
+&ldquo;<a href="http://www.isfdb.org/cgi-bin/title.cgi?41300">I Have No Mouth,
+and I Must Scream</a>&rdquo;, by Harlan Ellison
+
+<a name="doubledagger">&Dagger;</a> &ldquo;To release your mouse press:
+Control-&#x2318;&rdquo; and &ldquo;To release cursor, press CTRL + ALT&rdquo;
