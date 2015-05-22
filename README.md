@@ -27,8 +27,8 @@ its pointer.
 
 Absolute mode won't work if you don't have VMware Tools installed, because
 nothing is listening for that out-of-band mouse data.  So it makes sense that
-the console defaults to this mode.  What doesn't make sense is that the console
-has to grab the mouse in order to send keyboard data, which, unless I'm
+the console defaults to relative mode.  What doesn't make sense is that the
+console has to grab the mouse in order to send keyboard data, which, unless I'm
 mistaken, is always sent as emulated PS/2 keyboard codes.
 
 I figured that if the guest requested that the console enable absolute mode, it
